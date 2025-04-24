@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "4721f7c0-4b64-4f6a-82de-4cb38970c1c7",
+		"name": "Tickets",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34485175"
+	},
+	"item": [
+		{
+			"name": "Get All Tickets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/tickets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tickets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Ticket by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/tickets/680a0f81e3c0900b60b97e88",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tickets",
+						"680a0f81e3c0900b60b97e88"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
